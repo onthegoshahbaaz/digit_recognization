@@ -11,10 +11,6 @@ TensorFlow 2.x
 NumPy
 Matplotlib
 scikit-learn (for metrics)
-You can install TensorFlow and other Python dependencies using pip:
-
-pip install tensorflow numpy matplotlib scikit-learn
-Dataset
 The MNIST dataset is used for training and testing the CNN.
 
 Training images (train-images-idx3-ubyte): 60,000 images
