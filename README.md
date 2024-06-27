@@ -13,34 +13,17 @@ Matplotlib
 scikit-learn (for metrics)
 You can install TensorFlow and other Python dependencies using pip:
 
-bash
-Copy code
 pip install tensorflow numpy matplotlib scikit-learn
 Dataset
-The MNIST dataset is used for training and testing the CNN. The dataset includes:
+The MNIST dataset is used for training and testing the CNN.
 
 Training images (train-images-idx3-ubyte): 60,000 images
 Training labels (train-labels-idx1-ubyte): 60,000 labels
 Test images (test-images-idx3-ubyte): 10,000 images
 Test labels (test-labels-idx1-ubyte): 10,000 labels
-Getting Started
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your_username/mnist-cnn-tensorflow.git
-cd mnist-cnn-tensorflow
-Download the MNIST dataset:
-
-Download the MNIST dataset from http://yann.lecun.com/exdb/mnist/ and place the IDX files (*.ubyte) in the /content directory.
-
-Run the script:
 
 Execute the Python script mnist_cnn.py to train and evaluate the CNN model:
-
-bash
-Copy code
-python mnist_cnn.py
 This will train the model on the training data, evaluate its performance on the test data, and print the test accuracy and confusion matrix.
 
 Model Architecture
